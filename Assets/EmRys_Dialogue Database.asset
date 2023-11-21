@@ -1806,18 +1806,6 @@ MonoBehaviour:
         destinationDialogueID: 2
         isConnector: 0
         priority: 2
-      - originConversationID: 5
-        originDialogueID: 1
-        destinationConversationID: 4
-        destinationDialogueID: 5
-        isConnector: 0
-        priority: 2
-      - originConversationID: 5
-        originDialogueID: 1
-        destinationConversationID: 4
-        destinationDialogueID: 6
-        isConnector: 0
-        priority: 2
       conditionsString: 
       userScript: 
       onExecute:
@@ -1825,8 +1813,8 @@ MonoBehaviour:
           m_Calls: []
       canvasRect:
         serializedVersion: 2
-        x: 298.83493
-        y: 128.54369
+        x: 160.1826
+        y: 185.86072
         width: 160
         height: 30
     - id: 2
@@ -2213,8 +2201,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 121.16485, y: 89.81451}
-    canvasZoom: 1.03
+    canvasScrollPosition: {x: 0, y: 405.08484}
+    canvasZoom: 1.18
   syncInfo:
     syncActors: 0
     syncItems: 0
