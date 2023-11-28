@@ -775,7 +775,9 @@ MonoBehaviour:
         type: 0
         typeString: 
       - title: Sequence
-        value: 
+        value: 'Camera(Closeup, listener, 1);
+
+          {{default}}'
         type: 0
         typeString: 
       conversationID: 2
@@ -1019,8 +1021,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 0, y: 143.72101}
-    canvasZoom: 0.8200001
+    canvasScrollPosition: {x: 0, y: 0}
+    canvasZoom: 1.03
   - id: 3
     fields:
     - title: Title
