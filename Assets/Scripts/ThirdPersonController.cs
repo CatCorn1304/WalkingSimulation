@@ -373,7 +373,7 @@ namespace StarterAssets
         private void OnFootstep(AnimationEvent animationEvent)
         {
             Debug.Log("Footstep event triggered.");
-            if (animationEvent.animatorClipInfo.weight > 0.5f)
+            if (animationEvent.animatorClipInfo.weight > 01f)
             {
                 if (FootstepAudioClips.Length > 0)
                 {
@@ -386,7 +386,7 @@ namespace StarterAssets
         private void OnLand(AnimationEvent animationEvent)
         {
             Debug.Log("Land event triggered.");
-            if (animationEvent.animatorClipInfo.weight > 0.5f)
+            if (animationEvent.animatorClipInfo.weight > 1f)
             {
                 AudioSource.PlayClipAtPoint(LandingAudioClip, transform.TransformPoint(_controller.center), FootstepAudioVolume);
             }
