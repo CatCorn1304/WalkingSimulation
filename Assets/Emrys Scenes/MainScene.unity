@@ -2299,6 +2299,51 @@ PrefabInstance:
       propertyPath: GroundLayers.m_Bits
       value: 513
       objectReference: {fileID: 0}
+    - target: {fileID: 4776999166399783707, guid: 73bb0396615bd05499f1109cbbd17076,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4776999166399783707, guid: 73bb0396615bd05499f1109cbbd17076,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6a1e6d18c3832b7499d854f8aafb454c, type: 3}
+    - target: {fileID: 4776999166399783707, guid: 73bb0396615bd05499f1109cbbd17076,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: fc62e3b18e9bf9d4caddc263fffdf6cd, type: 3}
+    - target: {fileID: 4776999166399783707, guid: 73bb0396615bd05499f1109cbbd17076,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 37dfe99f6534ca44f847afd2086c55ab, type: 3}
+    - target: {fileID: 4776999166399783707, guid: 73bb0396615bd05499f1109cbbd17076,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: b0f8a3dd0a83c0f4ca44f407040fd40e, type: 3}
+    - target: {fileID: 4776999166399783707, guid: 73bb0396615bd05499f1109cbbd17076,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8fcaa14bfb2400b459f12b74d9d983db, type: 3}
+    - target: {fileID: 4776999166399783707, guid: 73bb0396615bd05499f1109cbbd17076,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 90cfceaef3c30dc4cbaaba07b0025e52, type: 3}
+    - target: {fileID: 4776999166399783707, guid: 73bb0396615bd05499f1109cbbd17076,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 0a0b130a114d034439b17249c5dbc657, type: 3}
+    - target: {fileID: 4776999166399783707, guid: 73bb0396615bd05499f1109cbbd17076,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: 5681e300c43a5aa488c564e14d5c0f4a, type: 3}
     - target: {fileID: 4776999166399783708, guid: 73bb0396615bd05499f1109cbbd17076,
         type: 3}
       propertyPath: m_Camera
