@@ -308,13 +308,13 @@ namespace StarterAssets
                     if (_hasAnimator)
                     {
                         Debug.Log("anim true");
-                        _animator.SetBool(_animIDJump, true);
+                        _animator.SetBool(_animIDJump, true);                      
                     }
 
                  
                     // the square root of H * -2 * G = how much velocity needed to reach desired height
                     _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
-                    _jumpTimeoutDelta = JumpTimeout;
+                    
 
                 }
 

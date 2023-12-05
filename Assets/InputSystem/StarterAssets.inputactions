@@ -179,9 +179,9 @@
                     "name": "",
                     "id": "1bd55a0b-761e-4ae4-89ae-8ec127e08a29",
                     "path": "<Keyboard>/space",
-                    "interactions": "",
+                    "interactions": "Press",
                     "processors": "",
-                    "groups": "KeyboardMouse;PS4 Controller",
+                    "groups": "KeyboardMouse",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -192,7 +192,7 @@
                     "path": "<Gamepad>/buttonNorth",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Gamepad;PS4 Controller",
+                    "groups": "PS4 Controller",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
