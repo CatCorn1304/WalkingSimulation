@@ -4252,6 +4252,11 @@ PrefabInstance:
       propertyPath: selectAt
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7256909275625349117, guid: 4f5db4ff88c323e4ca5139acf7954219,
+        type: 3}
+      propertyPath: maxSelectionDistance
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 7256909275625349119, guid: 4f5db4ff88c323e4ca5139acf7954219,
         type: 3}
       propertyPath: m_Name
