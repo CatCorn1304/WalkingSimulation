@@ -304,14 +304,18 @@ namespace StarterAssets
                 if (_input.jump && _jumpTimeoutDelta <= 0.0f)
                 {
                     Debug.Log("Jumping!");
-                    // the square root of H * -2 * G = how much velocity needed to reach desired height
-                    _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
-
                     // update animator if using character
                     if (_hasAnimator)
                     {
+                        Debug.Log("anim true");
                         _animator.SetBool(_animIDJump, true);
                     }
+
+                 
+                    // the square root of H * -2 * G = how much velocity needed to reach desired height
+                    _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
+                    _jumpTimeoutDelta = JumpTimeout;
+
                 }
 
                 // jump timeout
@@ -324,7 +328,7 @@ namespace StarterAssets
             {
                 // reset the jump timeout timer
                 _jumpTimeoutDelta = JumpTimeout;
-
+                
                 // fall timeout
                 if (_fallTimeoutDelta >= 0f)
                 {
