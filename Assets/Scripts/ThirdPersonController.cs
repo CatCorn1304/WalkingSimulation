@@ -303,6 +303,7 @@ namespace StarterAssets
                 // Jump
                 if (_input.jump && _jumpTimeoutDelta <= 0.0f)
                 {
+                    Debug.Log("Jumping!");
                     // the square root of H * -2 * G = how much velocity needed to reach desired height
                     _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
 
@@ -325,7 +326,7 @@ namespace StarterAssets
                 _jumpTimeoutDelta = JumpTimeout;
 
                 // fall timeout
-                if (_fallTimeoutDelta >= 0.0f)
+                if (_fallTimeoutDelta >= 0f)
                 {
                     _fallTimeoutDelta -= Time.deltaTime;
                 }
@@ -372,7 +373,7 @@ namespace StarterAssets
 
         private void OnFootstep(AnimationEvent animationEvent)
         {
-            Debug.Log("Footstep event triggered.");
+            //Debug.Log("Footstep event triggered.");
             if (animationEvent.animatorClipInfo.weight > 0.5f)
             {
                 if (FootstepAudioClips.Length > 0)
