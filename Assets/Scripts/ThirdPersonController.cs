@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 using UnityEngine.InputSystem;
 #endif
@@ -212,6 +213,8 @@ namespace StarterAssets
                 _cinemachineTargetYaw, 0.0f);
         }
 
+        
+
         private void Move()
         {
             // set target speed based on move speed, sprint speed and if sprint is pressed
@@ -280,6 +283,13 @@ namespace StarterAssets
             }
         }
 
+        IEnumerator waitAnim()
+        {
+            yield return new WaitForSeconds(.2f);
+            _animator.SetBool(_animIDJump, false);
+        }
+
+
         private void JumpAndGravity()
         {
             if (Grounded)
@@ -308,10 +318,12 @@ namespace StarterAssets
                     if (_hasAnimator)
                     {
                         Debug.Log("anim true");
-                        _animator.SetBool(_animIDJump, true);                      
+                        _animator.SetBool(_animIDJump, true);
+                        StartCoroutine(waitAnim());
+                        
                     }
+                    
 
-                 
                     // the square root of H * -2 * G = how much velocity needed to reach desired height
                     _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
                     

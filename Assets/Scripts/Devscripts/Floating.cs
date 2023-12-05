@@ -8,6 +8,8 @@ public class Floating : MonoBehaviour
     public float amplitude = 0.5f;
     public float frequency = 1f;
 
+    [SerializeField] GameObject lightPub;
+
     // Position Storage Variables
     Vector3 posOffset = new Vector3();
     Vector3 tempPos = new Vector3();
@@ -30,5 +32,9 @@ public class Floating : MonoBehaviour
         tempPos.y += Mathf.Sin(Time.fixedTime * Mathf.PI * frequency) * amplitude;
 
         transform.position = tempPos;
+    }
+    public void ActiveSet()
+    {
+        lightPub.SetActive(true);
     }
 }
