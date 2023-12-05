@@ -8,9 +8,9 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: Assets/Emrys Scenes/Scene1.unity
-    guid: ee35acb3b636ec84e8fed710e851049c
+  - enabled: 1
+    path: Assets/Emrys Scenes/MenuScene.unity
+    guid: ff684ef8aab962d449a8b27f7deaee16
   - enabled: 1
     path: Assets/Emrys Scenes/MainScene.unity
     guid: a98fa868b09950045a63631c1c066cfb
